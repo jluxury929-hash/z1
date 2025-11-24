@@ -15,6 +15,10 @@ const WALLET_ADDRESS = '0x34EDEa47a7Ce2947bff76d2df12b7Df027FD9433';
 const INFURA_KEY = process.env.INFURA_PROJECT_ID || 'YOUR_INFURA_KEY';
 const PRIVATE_KEY = process.env.BACKEND_PRIVATE_KEY;
 
+// ✅ Coinbase API Configuration
+const COINBASE_API_KEY = process.env.COINBASE_API_KEY;
+const COINBASE_API_SECRET = process.env.COINBASE_API_SECRET;
+
 const RPC_ENDPOINTS = [
   `https://mainnet.infura.io/v3/${INFURA_KEY}`,
   'https://eth.llamarpc.com',
